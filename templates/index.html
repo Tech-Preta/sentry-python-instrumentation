@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask App</title>
+    <script
+        src="https://js.sentry-cdn.com/dc0ebf02fd7083942671659182a50341.min.js"
+        crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <!-- Conteúdo da página -->
+    <button id="test-error">Trigger Test Error</button>
+    <script>
+        const button = document.getElementById('test-error');
+        button.addEventListener('click', () => {
+            throw new Error('This is a test error');
+        });
+    </script>
+</body>
+</html>

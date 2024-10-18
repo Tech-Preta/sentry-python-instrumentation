@@ -1,0 +1,24 @@
+# Changelog
+
+Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
+
+## [Unreleased]
+
+### Adicionado
+- Integração com o Sentry para monitoramento de erros e APM.
+- Rota principal que renderiza o template `index.html`.
+- Configuração básica do Flask com suporte para configuração de teste.
+- Criação automática do diretório de instância se não existir.
+
+### Corrigido
+- Nenhuma correção até o momento.
+
+### Alterado
+- Nenhuma alteração até o momento.
+
+## [1.0.0] - 2023-10-05
+
+### Adicionado
+- Estrutura inicial do projeto Flask.
+- Configuração do ambiente virtual e dependências no `requirements.txt`.
+- Arquivo `README.md` com instruções de configuração e execução.
