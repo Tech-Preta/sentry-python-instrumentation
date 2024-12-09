@@ -1,2 +1,2 @@
 Flask>=2.2.0
-sentry-sdk[flask]==1.5.0
+sentry-sdk[flask]==2.19.2
